@@ -13,7 +13,7 @@ import com.synopsys.homework.exception.InvalidSyntaxExpressionException;
 /**
  * Main application class that accepts simple mathematical operations via command line arguments.
  * 
- * Example: java com.synopsys.homework.main.CommandLineCalculator "add(2, 2)"
+ * Example: java -cp <jar> com.synopsys.homework.main.Main "add(2, 2)"
  * 
  * The logging level is set to INFO by default but can be set manually via command line by adding "-Dlog.level=<LOG LEVEL>".
  * 
